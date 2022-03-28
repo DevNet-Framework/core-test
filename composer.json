@@ -1,0 +1,27 @@
+{
+    "name": "devnet/coreset",
+    "description": "Test cases for Devnet Core Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Moussaoui",
+            "email": "m.moussaoui@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "devnet/core": "1.0.*"
+    },
+    "bin": [
+        "bin/devnet"
+    ],
+    "autoload": {
+        "psr-4": {
+            "DevNet\\CoreTest\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
